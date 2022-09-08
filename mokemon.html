@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mokemon</title>
+    
+</head>
+<body>
+    <h1>Juego Pokemon</h1>
+
+    <section id="seleccina-mascota">
+        <h2>elige mascota</h2>
+        
+        <label for="hipo">Hipo</label>
+        <input type="radio" name="mascota" id="hipo">
+        <label for="capi">Capi</label>
+        <input type="radio" name="mascota" id="capi">
+        <label for="rati">rati</label>
+        <input type="radio" name="mascota" id="rati">
+        <label for="lago">lago</label>
+        
+
+
+        <button id="boton-mascota">Seleccionar</button>
+
+        
+    </section>
+    <section id="selecciona-ataque">
+        <h2>Eige ataque</h2>
+        <p>tu mascota <span id="mascota-jugador"></span>  tiene <span id="vida-jugador">3</span> vidas</p>
+        <p>La mascota <span id="mascota-enemigo"></span> del enemigo tienen <span id="vida-enemigo">3</span> vidas</p>
+        <p>
+            <button id="boton-fuego">Fuego</button>
+            <button id="boton-agua">Agua</button>
+            <button id="boton-tierra">tierra</button>
+        </p>
+    </section>
+    <section id="mensajes">
+       
+
+    </section>
+    <section id="reiniciar">
+        <button id="boton-reiniciar">Reiniciar</button>
+    </section>
+   
+    <script src="./js/mokemon.js"></script>
+
+</body>
+</html>
